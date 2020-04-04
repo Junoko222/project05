@@ -1,0 +1,865 @@
+
+@media screen and (max-width: 767px) {
+
+/*-----------------------------手機平板------------------------------------*/
+	
+#container {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto;
+	padding-top: 78px;
+	overflow: hidden;
+}
+
+
+.header{
+	height: 78px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-bottom-width: 6px;
+	border-bottom-style: solid;
+	border-bottom-color: #004da0;
+	display: block;
+	position: fixed;
+	z-index: 90;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #FFF;
+	}
+.h-containt{
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto;
+	}
+.logo-l{
+	width: 100pt;
+	float: left;
+	padding: 0px;
+	height: auto;
+	margin: 0px;
+	}
+	
+.logo-l img{
+	width: 100%;
+	height: auto;
+	padding-top:8%;
+	}
+	
+.menu_m{
+	display:block;
+	}
+	
+.overlay {
+  height:48%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#efefef;
+  opacity:0.9;
+}
+
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #333;
+  display: block;
+  transition: 0.3s;
+}
+	
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 60px;
+}
+
+.open{
+margin-top: 4%;
+margin-right: 5%;
+font-size:30px;
+cursor:pointer;
+float:right;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}	
+	
+.hbg{
+	background-color: rgba(255,255,255,0.5);
+	}
+/*-----------------------------電腦版導航-------------------------------------*/
+.h_menu{
+  display: none;
+	}
+	
+.h_menu ul{}
+
+.h_menu li{
+	float: left;
+    }
+.h_menu li:nth-child(1){}
+
+.left-line{}
+	
+.h_menu a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+ display: block;
+	}
+	
+.h_menu a:hover{
+	background-color: #ddd;
+	}
+	
+.show {display: block;}
+
+/*-----------------------------地-------------------------------------*/
+
+.footer{
+    background: #004da0;
+    height: 90px;
+}
+.footer {
+    color:white;
+    text-align: center;
+    line-height:30px;
+    font-size:11px;
+}
+
+/*-----------------------------浮動按鈕-------------------------------------*/
+.rbtn1 {	
+	display: block;
+}
+
+.rbtn1 img{
+	position: fixed;
+	right:-3%;
+    top: 60%;
+	}
+
+.rbtn1 span {
+	display: none;
+}
+
+.rbtn2 {	
+	display: block;
+}
+
+.rbtn2 img{
+	position: fixed;
+	right:-3%;
+    top: 70%;
+	}
+
+.rbtn2 span {
+	display: none;
+}
+
+@media screen and (max-width: 640px) {
+
+.rbtn1 {	
+	display: block;
+}
+
+.rbtn1 img{
+	position: fixed;
+	right:-1%;
+    top: 70%;
+	}
+
+.rbtn1 span {
+	display: none;
+}
+
+.rbtn2 {	
+	display: block;
+}
+
+.rbtn2 img{
+	position: fixed;
+	right:-1%;
+    top: 84%;
+	}
+
+.rbtn2 span {
+	display: none;
+}
+		
+	}
+	
+
+/*-----------------------------網頁框架開始-------------------------------------*/
+.wrapper {
+	background-color:#fff;
+	}
+
+.w950 {
+	width:90%;
+	margin:0 auto;
+	}
+
+/*-----------------------------kv-------------------------------------*/
+
+header{
+	background-color: #fb6b91;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-image: none;
+}
+
+header h2{ 
+	width:100%;
+    max-width:840px ;
+    height:0;
+	padding-bottom:65%;
+	background-repeat: no-repeat;
+	background-image:url("../images/kv-mb.png");
+	background-position:center top;
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+
+.boxkv-img {
+	display: block;
+	height: auto;
+	position: absolute;
+	bottom:20%;
+	top:75%;
+	left:20%;
+	right:20%;
+}
+
+/*圖片置中*/
+.boxkv-img img {
+	width: 100%;
+	max-width:350px ;
+}
+
+@media screen and (max-width: 415px) {
+	
+header{
+	background-color: #f8362f;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-image: none;
+}
+header h2{ 
+	width:100%;
+    max-width:840px ;
+    height:0;
+	padding-bottom:55%;
+	background-repeat: no-repeat;
+	background-image:url("../images/kv-mb.png");
+	background-position:center top;
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-indent:-9999px;		
+	}	
+	
+	
+.boxkv-img {
+	display: block;
+	height: auto;
+	position: absolute;
+	top:65%;
+	left:20%;
+	right:20%;
+}
+
+/*圖片置中*/
+.boxkv-img img {
+	width: 100%;
+	max-width:350px ;
+}
+}
+/*-----------------------------活動內容-------------------------------------*/
+
+#pag1{}
+#pag2{}
+#pag3{}
+#pag4{}
+#pag5{}
+#pag-note{}
+	
+.anchor1{
+    position: relative;
+	top: -100px;
+}
+
+.anchor2{
+    position: relative;
+	top: -60px;
+}
+
+.anchor3{
+    position: relative;
+	top: -20px;
+}
+
+.anchor4{
+    position: relative;
+	top: -80px;
+}
+	
+.anchor5{
+    position: relative;
+	top: -80px;
+}
+
+.anchor6{
+    position: relative;
+	top: -80px;
+}
+
+.clearfix:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.box{
+	margin-bottom: 20px;
+}
+h4{font-size:49px; line-height: 50px;}
+h5{
+	font-size: 30px; 
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h5 img {
+	display:block;
+	margin:auto;
+	max-height: 60px;
+	padding-right:10px;
+	vertical-align:middle;
+	}
+h6{
+	font-size: 23px;
+	font-weight: bolder;
+	color: #e83a4a;
+	padding-bottom: 10px;
+}
+
+h6 img{	
+	vertical-align:middle;
+    width:90%;
+	height:auto;
+	max-width: 50px;
+
+}
+p{
+	font-size:18px; 
+	font-weight: bolder;
+	line-height: 28px;}
+
+.W-p16{
+	font-size: 14px; 
+	line-height: 15px;}/*16字級*/
+
+.w-red{color:#e83a4a; }
+
+/*贈品圖片*/
+.box-img{
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*圖片置中*/
+.box-img img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*圖片下方字置中*/
+.box-img p{
+	text-align: center;
+	font-size: 14px;
+}
+
+#appleDate {
+	margin:auto;
+}
+
+#lineDate {
+	margin:auto;
+}
+
+.box1 {}
+.w31{font-size:30px;
+	line-height: 50px;
+	}
+.box1-line{
+	display: block;
+	margin-top: 10px;
+	line-height: 24px;
+	}
+
+.activity{overflow: hidden;}
+.activity ul{}
+.activity li{
+    width:80%;
+	float: left;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	margin:0 auto;
+	border-radius:20px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+.activity li span{
+	display:block;
+	width: 90%;
+	/*height: 150px;*/
+	margin:0 auto;	
+}
+
+.activity li span img{
+	margin: 3px;
+	width: 55px;
+	height: 55px;
+} 
+
+.activity li:nth-child(1){
+	background-color: #ff4e50;
+	margin-top: 20px;
+	margin-left: 10%;
+
+}
+
+.activity li:nth-child(2){
+	background-color: #37abe3;
+
+}
+
+.activity li:nth-child(3){
+	background-color: #07b53b; 
+
+}
+
+.activity li:nth-child(4){
+	background-color: #008d8d8; 
+
+}
+
+.activity a{
+	color: #fff;
+	text-decoration: none;}
+
+/*內容點點顏色*/
+.orange-dot{color: #ef7f1a;}
+.blue-dot{color: #37abe3;}
+.green-dot{color: #8fc31f;}
+
+
+#cotain1{
+	background-color: #FFFFFF;
+	text-align:center;
+	padding-top: 10px;
+	/*padding-bottom: 30px;*/
+}
+
+#cotain2{
+	width: 100%;
+	height: auto;
+	background-color: #f9c2c7;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#cotain3{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.box .co3step{overflow:hidden;}
+.box .co3step li {
+	width:45%;
+	float:left;
+	text-align: center;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	margin-bottom: 10px;
+	}
+
+.box .co3step li span {
+	display:block;
+	width: 100%;
+	max-width:175px;
+	max-height:150px;
+	margin:0 auto;
+	border-radius:10%;
+	background-color:#fff;
+	margin-bottom:20px;
+	}
+	
+.box .co3step li:nth-child(4){
+	margin-left: 3%;
+	}
+
+.box .co3step li span img {
+	display:block; 
+	margin:auto;
+}
+.box .co3step li b {
+	text-align:center;
+	font-weight:normal;
+	line-height:23px;
+	font-size: 18.5px;
+	}
+
+.box-btn{
+	margin-top: 30px;
+	width: 300px;
+	display: block;
+	margin:30px auto;
+}
+/*步驟下方詳細操作說明按鈕-*/
+.btn-step{
+	margin:0 auto;
+	/*display: inline-block;*/
+	padding: 20px 50px 20px 50px;
+	background: #f2c80f;
+	border-radius: 2em;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 1;	
+}
+
+.btn-step a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn-step a:hover{
+	text-decoration:underline;
+	color: #fff;
+}
+/*步驟下方詳細操作說明按鈕-結束*/
+
+#cotain4{	
+	width: 100%;
+	height: auto;
+	background-color: #f3f7e1;
+	padding-top: 10px;
+	padding-bottom: 30px;}
+	
+.n25{	
+	display:inline-block;
+	margin-left:25px;}
+
+.box .co4step{overflow:hidden;}
+.box .co4step ul{}
+.box .co4step li {
+	width:50%;
+	float:left;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.box .co4step li span {
+	display:block;
+	max-width: 100%;
+	/*max-width:163px;*/
+	height:auto;
+	margin:0 auto;
+	border-radius:10%;
+	background-color: #f3f7e1;
+	
+	}
+
+.box .co4step li b {
+	text-align:center;
+	font-weight:normal;
+	line-height:22px;
+	font-size: 18px;
+	padding-top:10px;
+	}
+
+.box .co4step li span img {
+	display:block; 
+	background-color: #f3f7e1;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.mon-table{
+	display: block;
+	margin: 0 auto;
+	}
+.mon-table ul{}	
+.mon-table li {
+	width: 100%;
+	height: auto;
+	max-width: 470px;
+	}
+
+.Green-bg{
+	background-color: #8fc31f;
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	color: #ffffff;
+	padding: 20px 10px 10px 10px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box .gift5000{overflow:hidden;}
+.box .gift5000 ul{}
+.box .gift5000 li{
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+.box .gift5000 li b {
+	text-align:center;
+	font-weight:normal;
+	line-height:22px;
+	font-size: 18px;
+	padding-top:10px;
+	}
+
+.box .gift5000 li span img {
+	margin: 0 auto;
+	display:block;
+	width: 200px;
+	background-color: #f3f7e1;
+	margin-bottom:0px;
+	margin-top: 20px;
+}
+/*5000元禮券下方字距離*/
+ .p16w{
+	 padding-top: 30px;
+}
+
+
+.Orange-bg{
+	background-color: #ef7f1a;
+	width: 100%;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#cotain5{	
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#cotain5 p img{
+	margin: 0 auto;
+}
+
+
+.card1{
+   display: none;
+}
+	
+.card1-m{
+   display: block;
+   max-width: 936px;
+   max-height: 658px;
+	}
+
+.card2{
+	display:none;
+}
+	
+.card3{
+	display: block;
+	max-width: 936px;
+	max-height: 412px;
+}
+
+
+#note{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#note h6{
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+}
+
+i {
+  border: solid #333;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/*-------注意事項展開------*/
+#myDIV {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  background-color:#fff;
+  margin-top: 20px;
+}
+
+.boxInfo {
+	font-size:14px;
+	line-height:18px;
+	margin-bottom:20px;
+	margin-left:15px;
+	}
+.boxInfo li {
+	text-align:justify;
+	}
+.boxInfo li span {
+	display:inline-block;
+	margin-left:-13px;
+	}
+	
+.boxInfo .boxInfo-li-2{
+	display:inline-block;
+	margin-left:-21px;
+}
+
+.note {
+    text-align:left;
+    font-size: 15px;
+	font-weight: bolder;
+}
+
+/*-----------------------------警語-------------------------------------*/
+			        	
+#footer-m{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #999;
+	height: auto;
+	clear: both;
+	float: none;
+	}
+#footer-mcon{
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto;
+	clear: both;
+	float: none;
+	}
+#footer-m1{
+	padding: 0px;
+	width: 100%;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	float: none;
+	height: auto;
+	margin: 0px;
+	}
+#footer-m2{
+	width: 95%;
+	font-size: 14px;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	line-height: 18px;
+	clear: both;
+	float: none;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	}	
+#footer{
+	background-color: #254A91;
+	text-align: center;
+	width: 96%;
+	height: auto;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 2%;
+	padding-bottom: 10px;
+	padding-left: 2%;
+	margin: 0px;
+	}	
+.copyright2 a{
+	padding-left: 10px;
+	color: #FFF;
+	text-decoration: none;
+	}	
+	
+}
